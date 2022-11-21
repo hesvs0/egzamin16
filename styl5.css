@@ -1,0 +1,68 @@
+header{
+    background-color:#009999 ;
+    color: white;
+    text-align: center;
+    height: 80px;
+    overflow: hidden;
+}
+.info{
+    font-family: Arial;
+    background-color:#009999 ;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    float: left;
+    
+}
+#prawy{
+    float: right;
+    width: 30%;
+    background-color:#669999 ;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+
+#lewy{
+    background-color:#669999 ;
+    width: 30%;
+    height: 600px;
+    float: left;
+    
+}
+
+#srodkowy{
+    background-color:#99CCCC ;
+    width: 40%;
+    height: 600px;
+    text-align: center;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+footer{
+    background-color:#009999 ;
+    color: white;
+    text-align: right;
+    clear: both;
+}
+table,td{
+    border-width: 1px;
+    border-color: green;
+    text-align: center;
+    border-style: solid;
+}
+button{
+    border: none;
+    margin: 10px;
+    background-color: green;
+    color: white;
+
+}
+html, body{
+    margin: 0;
+    margin-top: 0;
+}

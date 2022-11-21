@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal ogłoszeniowy</title>
+    <link rel="stylesheet" href="styl5.css">
+</head>
+<body>
+    <header>
+        <h1>Portal Ogłoszeniowy</h1>
+    </header>
+    <div class="info">
+        <img src="logo-male.png">
+    </div>
+    <div class="info">
+        <h3>Adres</h3>
+        <p>ul. Morska 45 Gdynia</p>
+    </div>
+    <div class="info">
+        <h3>telefon</h3>
+        <p>601601601</p>
+    </div>
+    <div class="info">
+        <h3>e-mail</h3>
+        <p>ogloszenia@poczta.pl</p>
+    </div>
+    <div id="lewy">
+        <h2>Ceny ogłoszeń</h2>
+        <table>
+            <tr>
+                <td>Liczba ogłoszeń</td>
+                <td>Cena ogłoszenia</td>
+                <td>Bonus</td>
+            </tr>
+            <tr>
+                <td>1 - 50</td>
+                <td>2 PLN</td>
+                <td rowspan="2">Subskrypcja newslettera to 
+                    upust 0.20 PLN na ogloszenie
+                </td>
+            </tr>
+            <tr>
+                <td>51 i więcej</td>
+                <td>1 PLN</td>
+            </tr>
+        </table>
+    </div>
+    <div id="srodkowy">
+        <h2>Witamy na stronie naszego portalu!</h2>
+        <img src="logo-duze.png">
+    </div>
+    <div id="prawy">
+        <h2>Ile kosztuje ogłoszenie?</h2>
+        Podaj liczbę ogloszeń<br>
+        <input type="number" id="ilosc"><br>
+        <input type="checkbox" id="staly">Policz upust na newsletter<br>
+        <button onclick="oblicz()">Oblicz</button>
+        <p id="wynik"></p>
+     </div>
+    <footer>
+        Portal ogłoszeniowy opracował:000000000000000000
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
